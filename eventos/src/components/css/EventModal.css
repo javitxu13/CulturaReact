@@ -1,0 +1,41 @@
+.modal{
+    display:none;
+    position:fixed;
+    z-index:1;
+    left:15%;
+    top:0;
+    width:70%;
+    height:100%;
+    overflow:scroll;
+    background-color:rgb(255, 255, 255, 1);
+}
+
+.modal.show{
+    display:block;
+
+}
+
+.modal.show img{
+   width: 40%;
+}
+
+.modal h1{
+    text-align:center;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 10px;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.cerrar{
+    margin: 10px;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    background-color:  rgb(255, 145, 0);
+    border-radius: 13px;
+}
+

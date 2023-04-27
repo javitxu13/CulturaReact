@@ -1,0 +1,135 @@
+.eventos {
+    font-size: 34px;
+    font-weight: bold;
+    color: #333;
+    text-align: start;
+    margin: 20px;
+    padding: 20px;
+  }
+  
+.nombre {
+
+    list-style-type: none;
+    columns: 5;
+    background-color: rgb(230, 230, 230);
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 30px;
+    margin: 20px;
+    text-align: center;
+    color: #333;
+
+} 
+
+.EventosAbajo{
+    font-size: 34px;
+    text-align: start;
+    margin: 20px;
+    padding: 20px;
+    color: #333;
+}
+
+
+.totalPagina{
+    font-size: 13px;
+}
+
+.botonPrev{
+    background-color: rgb(14, 97, 97);
+    color: aliceblue;
+    border-radius: 5px;
+    width: 7%;
+    border-radius: 10px;
+}
+
+.botonPrev:hover{
+    background-color:  rgb(255, 145, 0);
+    color: aliceblue;
+    border-radius: 5px;
+    width: 7%;
+    border-radius: 10px;
+    transition: 0.8s;
+}
+
+
+.botonNext{
+    background-color: rgb(14, 97, 97);
+    color: aliceblue;
+    border-radius: 5px;
+    width: 7%;
+    border-radius: 10px;
+}
+
+.botonNext:hover{
+    background-color:  rgb(255, 145, 0);
+    color: aliceblue;
+    border-radius: 5px;
+    width: 7%;
+    border-radius: 10px;
+    transition: 0.8s;
+}
+
+h1{
+    color: #ffffff;
+    font-size: 44px;
+    text-align: center;
+    margin: 30px;
+    padding: 40px;
+    background-color: rgb(255, 145, 0);
+    border-radius: 15px;
+}
+
+
+
+
+img{
+    margin: 20px;
+    border-radius: 15px;
+    align-content: center;
+    width: 70%;
+    grid-column: 1; /* La imagen ocupa la primera columna */
+
+}
+.u{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Dos columnas de igual tamaño */
+    list-style-type: none;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+    
+  }
+
+  .u li {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(230, 230, 230);
+    font-size: 20px;
+
+  }
+  
+
+.name{
+    font-size: 90%;
+    color: #a80909;
+}
+
+li{
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    align-content: center;
+
+}
+
+li.selected{
+    background-color: rgb(255, 145, 0);
+    color: aliceblue;
+    border-radius: 5px;
+    padding: 5px;
+    transition: 0.3s;
+} 
