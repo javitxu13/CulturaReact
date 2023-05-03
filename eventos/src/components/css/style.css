@@ -35,41 +35,8 @@
     font-size: 13px;
 }
 
-.botonPrev{
-    background-color: rgb(14, 97, 97);
-    color: aliceblue;
-    border-radius: 5px;
-    width: 7%;
-    border-radius: 10px;
-}
-
-.botonPrev:hover{
-    background-color:  rgb(255, 145, 0);
-    color: aliceblue;
-    border-radius: 5px;
-    width: 7%;
-    border-radius: 10px;
-    transition: 0.7s;
-
-}
 
 
-.botonNext{
-    background-color: rgb(14, 97, 97);
-    color: aliceblue;
-    border-radius: 5px;
-    width: 7%;
-    border-radius: 10px;
-}
-
-.botonNext:hover{
-    background-color:  rgb(255, 145, 0);
-    color: aliceblue;
-    border-radius: 5px;
-    width: 7%;
-    border-radius: 10px;
-    transition: 0.8s;
-}
 
 h1{
     color: #ffffff;
@@ -103,12 +70,12 @@ img{
   }
 
   .u li {
-    border: 2px solid rgb(0, 0, 0);
+    box-shadow: 5px 2px 5px 4px #000000;
     border-radius: 15px;
     margin: 20px;
     padding: 20px;
     text-align: center;
-    background-color: rgb(230, 230, 230);
+    background-color: rgb(219, 204, 115);
     font-size: 20px;
 
   }
@@ -134,3 +101,55 @@ li.selected{
     padding: 5px;
     transition: 0.3s;
 } 
+
+
+/* Estilos para el botón "Mostrar más" */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 20px 0;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    }
+    
+    button:hover {
+    background-color: #3e8e41;
+    }
+    
+    /* Estilos para el botón "Ir arriba" */
+    button:nth-of-type(2) {
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    display: none;
+    border-radius: 40px;
+    background-color: #008cff;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    }
+    
+    button:nth-of-type(2):not([style="display: none;"]) {
+    display: block;
+    }
+
+    
+    /* Estilos para el mensaje de "Página X de Y" */
+    .totalPagina {
+    text-align: center;
+    font-size: 20px;
+    margin: 20px 0;
+    color: #666;
+    text-shadow: 1px 1px 1px #fff;
+    }
+
+    
+h3{
+    color: #000000;
+}
